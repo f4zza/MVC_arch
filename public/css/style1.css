@@ -24,8 +24,8 @@ border-radius: 50%;
 }
 .shape:first-child{
 background: linear-gradient(
-    #1845ad,
-    #23a2f6
+    #E49EFF,
+    #79C2FF
 );
 left: -80px;
 top: -80px;
@@ -33,8 +33,8 @@ top: -80px;
 .shape:last-child{
 background: linear-gradient(
     to right,
-    #ff512f,
-    #f09819
+    #FDAECB,
+    #CE407A
 );
 right: -30px;
 bottom: -80px;

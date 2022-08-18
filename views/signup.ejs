@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style1.css">
     <title>Sign Up</title>
 </head>
 <body>
@@ -13,11 +17,16 @@
         <% }) %>    
     <% } %>
     <form action="/signup" method="POST">
-        <input type="text" name="userName" placeholder="User Name">
-        <input type="email" name="email" placeholder="Email">
-        <input type="password" name="password" placeholder="Password">
-        <input type="password" name="confirmPassword" placeholder="Confirm Password">
-        <input type="submit">
+        <h3>SIGN UP</h3>
+        <label for="text">Username</label>
+        <input type="text" name="userName" placeholder="User Name" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Email" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password" required>
+        <!-- <label for="password">Confirm Password</label> -->
+        <input type="password" name="confirmPassword" placeholder="Confirm Password" required>
+        <input class="signup-FP" type="submit" value="Sign Up">
     </form>
 </body>
 </html>

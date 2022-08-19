@@ -16,6 +16,12 @@ h1 {
     text-align: center;
     opacity: 0.4;
 }
+h2{
+  color: #136572;
+  font-size: 2rem;
+  text-align: center;
+  opacity: 0.4;
+}
 .completed{
     color: #45494E;
     text-decoration: line-through;

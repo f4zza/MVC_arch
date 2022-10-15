@@ -1,7 +1,7 @@
 {
   "name": "todo-mvc",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic ToDo app with Auth using passport",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
